@@ -4,7 +4,7 @@ getgenv().Config2016 = ({
     OldPlayerList = true,
     OldBubbleChat = true,
 
-    ReplaceAgeGroupMessage = true,
+    ReplaceAgeGroupMessage = false,
     HideVoiceChatButton = false,
 })
 
