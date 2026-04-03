@@ -246,18 +246,18 @@ local SetupChat = function()
 		Backpack.Position = UDim2.fromOffset(48, 0);
 	end
 
-	ChatWindow.BackgroundColor3 = Color3.fromRGB(0, 0, 0);
+	ChatWindow.BackgroundColor3 = Color3.fromRGB(74, 74, 74);
 	ChatWindow.BackgroundTransparency = 0.98
-	ChatWindow.TextSize = 17.75
-	ChatWindow.TextStrokeTransparency = 0.6
-	ChatWindow.HeightScale = 0.79
-	ChatWindow.WidthScale = 1.04
+	ChatWindow.TextSize = 18
+	ChatWindow.TextStrokeTransparency = 0.795
+	ChatWindow.HeightScale = 0.8
+	ChatWindow.WidthScale = 1.05
 	ChatWindow.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-	ChatInput.BackgroundColor3 = Color3.fromRGB(209, 216, 221);
-	ChatInput.BackgroundTransparency = 0.95
+	ChatInput.BackgroundColor3 = Color3.fromRGB(150, 150, 150);
+	ChatInput.BackgroundTransparency = 0.98
 	ChatInput.TextColor3 = Color3.fromRGB(25, 25, 25);
 	ChatInput.PlaceholderColor3 = Color3.fromRGB(36, 35, 34);
-	ChatInput.TextStrokeTransparency = 0.98
+	ChatInput.TextStrokeTransparency = 0.9
 	ChatInput.TextSize = 17.5
 	ChatInput.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 	ExperienceChatApp.Position = UDim2.fromOffset(0, -20);
