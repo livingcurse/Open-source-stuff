@@ -1142,7 +1142,7 @@ if (Configuration.OldPlayerList) then
 					Font = Enum.Font.SourceSans,
 					TextXAlignment = Enum.TextXAlignment.Left,
 					TextColor3 = Color3.fromRGB(255, 255, 255),
-					Text = "Send a friend request",
+					Text = "Send Connection Request",
 				})
 
 				local ReportButton = Create("TextButton", {
